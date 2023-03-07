@@ -1,0 +1,96 @@
+.img-lord {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    object-fit: cover;
+}
+.height-lord {
+    height: 445px;
+}
+.edit-item-icon {
+    transition-duration: 0.4s;
+}
+.edit-item-icon:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.checkbox {
+    position: center;
+}
+.row-color {
+    background-color: #5c2563;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-color-font {
+    color: white;
+    box-shadow: 0px 2px 6px 0px #2e1a47;
+    background-color: #5c2563;
+    border-color: #5c2563;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px transparent;
+    font-size: 0.9rem;
+    border-radius: 0.15rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn-size {
+    color: white;
+    box-shadow: 0px 2px 6px 0px #2e1a47;
+    background-color: #5c2563;
+    border-color: #5c2563;
+    cursor: pointer;
+    display: inline-block;
+    /* font-weight: 400; */
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px transparent;
+    font-size: x-small;
+    margin: auto;
+    border-radius: 0.15rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+.trash {
+    color: red;
+    size: 20px;
+}
+div.border.col-5.card {
+    width: 41.66667%;
+    height: 70px;
+}
+.file-height {
+    height: 376px;
+}
+
+.react-datepicker__aria-live {
+    display: none;
+}
+
+.height-calendar {
+    height: 470px;
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: #ff9126;
+    border-radius: 0.7rem;
+}
+
+.reset-button {
+    margin-left: 185px;
+    margin-bottom: 23px;
+}
+.delete-ex {
+    margin-top: 0.55rem;
+    margin-left: 0.55rem;
+    font-weight: bold;
+}

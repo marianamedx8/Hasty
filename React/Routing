@@ -1,0 +1,66 @@
+import { lazy } from 'react';
+const PageNotFound = lazy(() => import('../pages/error/PageNotFound'));
+const Register = lazy(() => import('../pages/user/Register'));
+const Login = lazy(() => import('../pages/user/Login'));
+const Confirm = lazy(() => import('../pages/user/Confirm'));
+const ForgotPassword = lazy(() => import('../pages/user/ForgotPassword'));
+const ChangePassword = lazy(() => import('../pages/user/ChangePassword'));
+
+const routes = [
+  
+  {
+    path: '/register',
+    name: 'Register',
+    exact: true,
+    element: Register,
+    roles: [],
+    isAnonymous: true,
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    exact: true,
+    element: Login,
+    roles: [],
+    isAnonymous: true,
+  },
+ 
+  {
+    path: '/confirm',
+    name: 'Confirm',
+    exact: true,
+    element: Confirm,
+    roles: [],
+    isAnonymous: true,
+  },
+  {
+    path: `/forgot-password`,
+    name: `Forgot Password`,
+    exact: true,
+    element: ForgotPassword,
+    roles: [],
+    isAnonymous: true,
+  },
+  {
+    path: `/changepassword`,
+    name: `Change Password`,
+    exact: true,
+    element: ChangePassword,
+    roles: [],
+    isAnonymous: true,
+  },
+];
+
+const errorRoutes = [
+  {
+    path: '*',
+    name: 'Error - 404',
+    element: PageNotFound,
+    roles: [],
+    exact: true,
+    isAnonymous: true,
+  },
+];
+let allRoutes = [...routes, ...errorRoutes];
+
+export default allRoutes;

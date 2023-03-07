@@ -1,0 +1,42 @@
+USE [Hasty]
+GO
+/****** Object:  StoredProcedure [dbo].[UserTokens_Select_ByTokenType]    Script Date: 3/7/2023 8:05:23 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author: <Mariana Hernandez>
+-- Create date: <01-25-2023T 13:31:00>
+-- Description: UserTokens SelectByToken
+-- Code Reviewer: Doupis
+
+-- MODIFIED BY: 
+-- MODIFIED DATE:
+-- Code Reviewer:
+-- Note:
+-- =============================================
+
+ALTER PROC [dbo].[UserTokens_Select_ByTokenType]
+			@TokenType int
+
+/*---Test Code---
+
+	DECLARE @TokenType int = 2
+
+	EXECUTE [dbo].[UserTokens_Select_ByTokenType] @TokenType
+
+*/
+
+AS
+
+BEGIN
+
+	SELECT [Token]
+			,[UserId]
+			,[TokenType]
+	FROM [dbo].[UserTokens]
+	WHERE TokenType = @TokenType
+
+END

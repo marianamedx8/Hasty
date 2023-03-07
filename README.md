@@ -1,1 +1,1 @@
-# Hasty
+Web-based company Hasty is a startup, created by veterans, focused on creating a solution for active military personnel who need to find housing that aligns within distance to bases, as well as meeting military specifications, while fulfilling their own personal or familial needs. Hasty is and MVP due to the proprietary nature of the code I can only provide conde snippets of my code, this respository contains SQL, .NET, and React code.

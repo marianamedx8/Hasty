@@ -1,10 +1,10 @@
-﻿using Sabio.Models.Domain;
-using Sabio.Models.Domain.Users;
-using Sabio.Models.Requests;
-using Sabio.Models.Requests.NewsletterSubscription;
-using Sabio.Models.Requests.Users;
+﻿using Hasty.Models.Domain;
+using Hasty.Models.Domain.Users;
+using Hasty.Models.Requests;
+using Hasty.Models.Requests.NewsletterSubscription;
+using Hasty.Models.Requests.Users;
 
-namespace Sabio.Services.Interfaces
+namespace Hasty.Services.Interfaces
 {
     public interface IEmailService
     {

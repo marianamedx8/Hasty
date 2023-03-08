@@ -1,22 +1,22 @@
 ﻿using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Services.Interfaces;
+using Hasty.Data.Providers;
+using Hasty.Models;
+using Hasty.Models.Domain;
+using Hasty.Services.Interfaces;
 using System.Data;
 using System.Linq;
 using System.Security.Claims;
 using System.Reflection.PortableExecutable;
-using Sabio.Models.Domain.Users;
+using Hasty.Models.Domain.Users;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Collections.Generic;
-using Sabio.Models.Requests.Users;
+using Hasty.Models.Requests.Users;
 using System.Reflection;
 using Stripe;
 
-namespace Sabio.Services
+namespace Hasty.Services
 {
     public class UserService : IUserService, IBaseUserMapper
     {

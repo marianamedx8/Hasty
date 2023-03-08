@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.Users
+namespace Hasty.Models.Domain.Users
 {
     public class UserStatus
     {

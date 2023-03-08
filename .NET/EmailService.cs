@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Hosting;
-using Sabio.Models.AppSettings;
+using Hasty.Models.AppSettings;
 using sib_api_v3_sdk.Api;
 using sib_api_v3_sdk.Client;
 using System.Collections.Generic;
@@ -7,15 +7,15 @@ using System.IO;
 using Microsoft.Extensions.Options;
 using sib_api_v3_sdk.Model;
 using Task = System.Threading.Tasks.Task;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests.NewsletterSubscription;
+using Hasty.Models.Domain;
+using Hasty.Models.Requests.NewsletterSubscription;
 using System.Security.Policy;
-using Sabio.Models.Requests.Users;
-using Sabio.Models.Domain.Users;
-using Sabio.Services.Interfaces;
+using Hasty.Models.Requests.Users;
+using Hasty.Models.Domain.Users;
+using Hasty.Services.Interfaces;
 
 
-namespace Sabio.Services
+namespace Hasty.Services
 {
     public class EmailService : IEmailService
     {

@@ -1,12 +1,12 @@
-﻿using Sabio.Models.Domain.Users;
-using Sabio.Models.Requests.Users;
-using Sabio.Models;
+﻿using Hasty.Models.Domain.Users;
+using Hasty.Models.Requests.Users;
+using Hasty.Models;
 using System.Threading.Tasks;
-using Sabio.Models.Domain;
+using Hasty.Models.Domain;
 using System.Data;
 using System.Collections.Generic;
 
-namespace Sabio.Services
+namespace Hasty.Services
 {
     public interface IUserService
     {

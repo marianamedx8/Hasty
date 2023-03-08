@@ -8,18 +8,18 @@ using System.Linq;
 using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
-using Sabio.Data;
-using Sabio.Models.Domain.Users;
-using Sabio.Models;
-using Sabio.Models.Requests.ListingReservations;
+using Hasty.Data;
+using Hasty.Models.Domain.Users;
+using Hasty.Models;
+using Hasty.Models.Requests.ListingReservations;
 using System.Reflection;
-using Sabio.Services.Interfaces;
+using Hasty.Services.Interfaces;
 using sib_api_v3_sdk.Model;
-using Sabio.Models.Domain;
-using Sabio.Models.Domain.Listings;
+using Hasty.Models.Domain;
+using Hasty.Models.Domain.Listings;
 using Google.Apis.AnalyticsReporting.v4.Data;
 
-namespace Sabio.Services
+namespace Hasty.Services
 {
     public class ListingReservationsService : IListingReservationsService
     {

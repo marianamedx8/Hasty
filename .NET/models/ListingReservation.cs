@@ -1,12 +1,12 @@
-﻿using Sabio.Models.Domain.Listings;
-using Sabio.Models.Domain.Locations;
+﻿using Hasty.Models.Domain.Listings;
+using Hasty.Models.Domain.Locations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.ListingReservations
+namespace Hasty.Models.Domain.ListingReservations
 {
     public class ListingReservation
     {

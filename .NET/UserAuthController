@@ -3,25 +3,25 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
-using Sabio.Models;
-using Sabio.Models.Domain.Users;
-using Sabio.Models.Requests.Users;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using Hasty.Models;
+using Hasty.Models.Domain.Users;
+using Hasty.Models.Requests.Users;
+using Hasty.Services;
+using Hasty.Services.Interfaces;
+using Hasty.Web.Controllers;
+using Hasty.Web.Models.Responses;
 using Sabio.Web.StartUp;
 using System;
-using Sabio.Models.Enums;
+using Hasty.Models.Enums;
 using Microsoft.AspNetCore.Authorization;
 using System.Threading.Tasks;
-using Sabio.Models.Requests;
+using Hasty.Models.Requests;
 using Stripe;
 using NuGet.ContentModel;
 using System.Collections.Generic;
-using Sabio.Models.Domain.ListingReservations;
+using Hasty.Models.Domain.ListingReservations;
 
-namespace Sabio.Web.Api.Controllers
+namespace Hasty.Web.Api.Controllers
 {
     [Route("api/users")]
     [ApiController]

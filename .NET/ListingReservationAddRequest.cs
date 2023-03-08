@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Requests.ListingReservations
+namespace Hasty.Models.Requests.ListingReservations
 {
     public class ListingReservationAddRequest
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.ListingReservations
+namespace Hasty.Models.Domain.ListingReservations
 {
     public class ListingsAdditional
     {

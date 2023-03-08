@@ -1,10 +1,10 @@
-﻿using Sabio.Models;
-using Sabio.Models.Domain.ListingReservations;
-using Sabio.Models.Requests.ListingReservations;
+﻿using Hasty.Models;
+using Hasty.Models.Domain.ListingReservations;
+using Hasty.Models.Requests.ListingReservations;
 using System;
 using System.Collections.Generic;
 
-namespace Sabio.Services.Interfaces
+namespace Hasty.Services.Interfaces
 {
     public interface IListingReservationsService
     {

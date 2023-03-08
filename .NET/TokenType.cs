@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Enums
+namespace Hasty.Models.Enums
 {
     public enum TokenType
     {
